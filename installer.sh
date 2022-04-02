@@ -14,6 +14,7 @@ rm -rf /etc/tuxbox/*.xml
 #####################################################################################
 echo "Installing astra sm patch"
 opkg install astra-sm 
+opkg install dvbsnoop
 sleep 1
 wget -O /etc/astra/scripts/abertis "https://drive.google.com/uc?id=1B0k60UTtmrHgQTrRkI6SFR3TenCZO_eL&export=download"
 chmod 755 /etc/astra/scripts/abertis
@@ -47,8 +48,9 @@ sleep 4;
 echo ". >>>>         RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
-killall -9 enigma2
+init 6
 exit 0
+
 
 
 
