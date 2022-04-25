@@ -5,12 +5,9 @@ echo "**************************************************************************
 echo "    download and install channel  "
 echo "============================================================================================================================="
 echo " remove old channel "
-# Remove any Channel  # 
-rm -rf /etc/enigma2/lamedb 
-rm -rf /etc/enigma2/*list 
+# Remove any Channel  #
 rm -rf /etc/enigma2/*.tv 
 rm -rf /etc/enigma2/*.radio 
-rm -rf /etc/tuxbox/*.xml 
 #####################################################################################
 echo "Installing astra sm patch"
 opkg install astra-sm 
@@ -50,6 +47,7 @@ echo "**************************************************************************
 wait
 init 6
 exit 0
+
 
 
 
