@@ -1,69 +1,207 @@
-#!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emil237/channel-emil-nabil/main"  
-echo "******************************************************************************************************************"
-echo "    download and install channel  "
-echo "============================================================================================================================="
-echo " remove old channel "
-# Remove any Channel  #
-rm -rf /etc/enigma2/*.tv 
-rm -rf /etc/enigma2/*.radio 
-#####################################################################################
-echo "Installing astra sm patch"
-opkg install astra-sm 
-opkg install dvbsnoop
-sleep 1
-wget -O /etc/astra/scripts/abertis "https://drive.google.com/uc?id=1B0k60UTtmrHgQTrRkI6SFR3TenCZO_eL&export=download"
-chmod 755 /etc/astra/scripts/abertis
-sleep 1
-wget -O /etc/astra/astra.conf "https://drive.google.com/uc?id=1B16pdta4o2u_PChUAG1hEAWKj1So2vCh&export=download"
-chmod 755 /etc/astra/astra.conf
-sleep 1
-echo ""
-echo "         install channel    "
-cd /tmp
-set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/channels_backup_by_Emil-Nabil.tar.gz"
-wait
-tar -xzf channels_backup_by_Emil-Nabil.tar.gz  -C /
-wait
-cd ..
+#!/bin/sh
+# ###########################################
+# SCRIPT : DOWNLOAD AND INSTALL Channel
+# ###########################################
+#
+# Command: wget https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/installer.sh -qO - | /bin/sh
+#
+# ###########################################
+
+###########################################
+# Configure where we can find things here #
+TMPDIR='/tmp'
+PACKAGE='astra-sm'
+DVBSNOOP='dvbsnoop'
+MY_URL='https://raw.githubusercontent.com/emil237/channel-emil-nabil/main'
+#############################################################################
+# Path of Config Files #
+BINPATH=/usr/bin
+ETCPATH=/etc
+ASTRAPATH=${ETCPATH}/astra
+######
+BBCPMT=${BINPATH}/bbc_pmt_starter.sh
+BBCPY=${BINPATH}/bbc_pmt_v6.py
+BBCENIGMA=${BINPATH}/enigma2_pre_start.sh
+######
+SYSCONF=${ETCPATH}/sysctl.conf
+ASTRACONF=${ASTRAPATH}/astra.conf
+ABERTISBIN=${ASTRAPATH}/scripts/abertis
+###############################
+# Path of Config Files in Tmp #
+CONFIGpmttmp=${TMPDIR}/bbc_pmt_v6/bbc_pmt_starter.sh
+CONFIGpytmp=${TMPDIR}/bbc_pmt_v6/bbc_pmt_v6.py
+CONFIGentmp=${TMPDIR}/bbc_pmt_v6/enigma2_pre_start.sh
+CONFIGsysctltmp=${TMPDIR}/${PACKAGE}/sysctl.conf
+CONFIGastratmp=${TMPDIR}/${PACKAGE}/astra.conf
+CONFIGabertistmp=${TMPDIR}/${PACKAGE}/abertis
+####################
+#  Image Checking  #
+if [ -f /etc/opkg/opkg.conf ]; then
+    STATUS='/var/lib/opkg/status'
+    OSTYPE='Opensource'
+    OPKG='opkg update'
+    OPKGINSTAL='opkg install'
+fi
+
+###########################
+# Remove Channel (if any) #
+rm -rf /etc/enigma2/*.tv
+rm -rf /etc/enigma2/*.radio
+
+#####################
+#  Checking Package #
+if [ $OSTYPE = "Opensource" ]; then
+    if grep -qs "Package: $PACKAGE" $STATUS; then
+        echo
+    else
+        $OPKG >/dev/null 2>&1
+        echo " Downloading And Insallling $PACKAGE ......"
+        $OPKGINSTAL $PACKAGE
+    fi
+    if grep -qs "Package: $DVBSNOOP" $STATUS; then
+        echo
+    else
+        $OPKG >/dev/null 2>&1
+        echo " Downloading And Insallling $DVBSNOOP ......"
+        $OPKGINSTAL $DVBSNOOP
+    fi
+    if grep -qs "Package: $PACKAGE" $STATUS; then
+        echo
+    else
+        echo "   >>>>   Feed Missing $PACKAGE   <<<<"
+        echo "   >>>>   Notification Abertis DTT Channel will not work   <<<<"
+    fi
+    if grep -qs "Package: $DVBSNOOP" $STATUS; then
+        echo
+    else
+        echo "   >>>>   Feed Missing $DVBSNOOP   <<<<"
+    fi
+fi
+
+#########################
+###############################
+# Downlaod And Install #
+echo
+set -e
+echo "Downloading And Insallling Channel Please Wait ......"
+wget "https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/channels_backup_by_Emil-Nabil.tar.gz" -qP $TMPDIR
+tar -zxf $TMPDIR/channels_backup_by_Emil-Nabil.tar.gz -C /
+sleep 5
 set +e
-rm -f /tmp/channels_backup_by_Emil-Nabil.tar.gz
-sleep 2;
-echo "" 
-echo "" 
-echo "****************************************************************************************************************************"
-echo "# Channel  INSTALLED SUCCESSFULLY #"
-echo "
-echo " "*********************************************************" 
-	echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
-sleep 4;
-	echo '========================================================================================================================='
-###########################################                                                                                                                  
-echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
-wait
-init 6
+echo
+echo "   >>>>   Reloading Services - Please Wait   <<<<"
+wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 >/dev/null 2>&1
+sleep 2
+echo
+
+if [ -f $BBCPMT ] && [ -f $BBCPY ] && [ -f $BBCENIGMA ]; then
+    echo "   >>>>   All Config BBC Files found   <<<<"
+    sleep 2
+else
+    set -e
+    echo "Downloading And Insallling Config BBC Please Wait ......"
+    wget $MY_URL/bbc_pmt_v6.tar.gz -qP $TMPDIR
+    tar -xzf $TMPDIR/bbc_pmt_v6.tar.gz -C $TMPDIR
+    set +e
+    chmod -R 755 ${TMPDIR}/bbc_pmt_v6
+    sleep 1
+    echo "---------------------------------------------"
+    if [ ! -f $BBCPMT ]; then
+        cp -f $CONFIGpmttmp $BINPATH >/dev/null 2>&1
+        echo "[send (bbc_pmt_starter.sh) file]"
+    fi
+    if [ ! -f $BBCPY ]; then
+        cp -f $CONFIGpytmp $BINPATH >/dev/null 2>&1
+        echo "[send (bbc_pmt_v6.py) file]"
+    fi
+    if [ ! -f $BBCENIGMA ]; then
+        cp -f $CONFIGentmp $BINPATH >/dev/null 2>&1
+        echo "[send (enigma2_pre_start.sh) file]"
+    fi
+    echo "---------------------------------------------"
+fi
+
+if [ $OSTYPE = "Opensource" ]; then
+    if uname -m | grep -qs armv7l; then
+        if [ -f $ASTRACONF ] && [ -f $ABERTISBIN ] && [ -f $SYSCONF ]; then
+            echo "   >>>>   All Config $PACKAGE Files found   <<<<"
+            sleep 2
+        else
+            set -e
+            echo "Downloading Config $PACKAGE Please Wait ......"
+            wget $MY_URL/astra-arm.tar.gz -qP $TMPDIR
+            tar -xzf $TMPDIR/astra-arm.tar.gz -C $TMPDIR
+            mv $TMPDIR/astra-arm $TMPDIR/${PACKAGE}
+            set +e
+            chmod -R 755 ${TMPDIR}/${PACKAGE}
+            sleep 1
+            echo "---------------------------------------------"
+            if [ ! -f $SYSCONF ]; then
+                cp -f $CONFIGsysctltmp $ETCPATH >/dev/null 2>&1
+                echo "[send (sysctl.conf) file]"
+            fi
+            if [ ! -f $ASTRACONF ]; then
+                cp -f $CONFIGastratmp $ASTRAPATH >/dev/null 2>&1
+                echo "[send (astra.conf) file]"
+            fi
+            if [ ! -f $ABERTISBIN ]; then
+                cp -f $CONFIGabertistmp $ASTRAPATH/scripts >/dev/null 2>&1
+                echo "[send (abertis) file]"
+            fi
+            echo "---------------------------------------------"
+        fi
+
+    elif uname -m | grep -qs mips; then
+        if [ -f $ASTRACONF ] && [ -f $ABERTISBIN ] && [ -f $SYSCONF ]; then
+            echo "   >>>>   All Config $PACKAGE Files found   <<<<"
+            sleep 2
+        else
+            set -e
+            echo "Downloading Config $PACKAGE Please Wait ......"
+            wget $MY_URL/astra-mips.tar.gz -qP $TMPDIR
+            tar -xzf $TMPDIR/astra-mips.tar.gz -C $TMPDIR
+            mv $TMPDIR/astra-mips $TMPDIR/${PACKAGE}
+            set +e
+            chmod -R 755 ${TMPDIR}/${PACKAGE}
+            sleep 1
+            echo "---------------------------------------------"
+            if [ ! -f $SYSCONF ]; then
+                cp -f $CONFIGsysctltmp $ETCPATH >/dev/null 2>&1
+                echo "[send (sysctl.conf) file]"
+            fi
+            if [ ! -f $ASTRACONF ]; then
+                cp -f $CONFIGastratmp $ASTRAPATH >/dev/null 2>&1
+                echo "[send (astra.conf) file]"
+            fi
+            if [ ! -f $ABERTISBIN ]; then
+                cp -f $CONFIGabertistmp $ASTRAPATH/scripts >/dev/null 2>&1
+                echo "[send (abertis) file]"
+            fi
+            echo "---------------------------------------------"
+        fi
+    fi
+fi
+
+#########################
+# Remove files (if any) #
+rm -rf ${TMPDIR}/channels_backup_by_Emil-Nabil.tar.gz"${VERSION}"* astra-* bbc_pmt_v6*
+
+sync
+echo ""
+echo ""
+echo "*********************************************************"
+echo "#       Channel And Config INSTALLED SUCCESSFULLY       #"
+echo "*********************************************************"
+echo "#                    EMIL_NABIL                         #"        
+echo "*********************************************************"
+echo "#           your Device will RESTART Now                #"
+echo "*********************************************************"
+sleep 2
+
+if [ $OSTYPE = "Opensource" ]; then
+    init 6
+else
+    systemctl restart enigma2
+fi
+
 exit 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
