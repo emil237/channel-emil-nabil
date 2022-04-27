@@ -4,10 +4,6 @@ MY_URL="https://raw.githubusercontent.com/emil237/channel-emil-nabil/main"
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
 echo "============================================================================================================================="
-echo " remove old channel "
-# Remove any Channel  #
-rm -rf /etc/enigma2/*.tv 
-rm -rf /etc/enigma2/*.radio 
 #####################################################################################
 echo "Installing astra sm patch"
 opkg install astra-sm 
@@ -47,6 +43,7 @@ echo "**************************************************************************
 wait
 init 6
 exit 0
+
 
 
 
