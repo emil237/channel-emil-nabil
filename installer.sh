@@ -81,7 +81,7 @@ esac
 
 #########################
 rm -rf ${ASTRACONF} ${SYSCONF}
-rm -rf ${TMPDIR}/channels_backup_by_Emil-Nabil"${VERSION}"* astra-* bbc_pmt_v6*
+rm -rf ${TMPDIR}/channels_backup_user_"${VERSION}"* astra-* bbc_pmt_v6*
 
 #########################
 echo
@@ -182,4 +182,6 @@ else
 fi
 
 exit 0
+
+
 
