@@ -135,7 +135,6 @@ if [ $OSTYPE = "Opensource" ]; then
         echo "Downloading Config $PACKAGE Please Wait ......"
         wget $MY_URL/astra-"${plarform}".tar.gz -qP $TMPDIR
         tar -xzf $TMPDIR/astra-"${plarform}".tar.gz -C $TMPDIR
-        mv $TMPDIR/astra-"${plarform}" $TMPDIR/${PACKAGE}
         set +e
         chmod -R 755 ${TMPDIR}/${PACKAGE}
         sleep 1
@@ -182,6 +181,7 @@ else
 fi
 
 exit 0
+
 
 
 
