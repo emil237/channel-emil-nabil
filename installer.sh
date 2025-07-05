@@ -1,3 +1,61 @@
-z="
-";lDz='-qs ';aHz='in/b';DFz='${SY';pCz='g/op';yz='ATH}';kCz='}/ab';vCz='US='\''';kHz='f as';vEz='"mip';IDz='kg u';BGz='Relo';LFz='r_"$';iz='on -';KDz='e'\''';ECz='bc_p';BDz='OSTY';MGz='0.1/';hIz='STAR';YCz='DIR}';FDz='ce'\''';THz='tc/i';yCz='g/st';AEz='1';tFz='tar ';tEz='larf';tDz='else';MDz='AL='\''';CEz=' >>>';OIz='SSFU';iEz=' -m)';JEz='<"';xCz='/lib';VHz='d/as';gCz='stmp';OCz='sctl';RDz='rm -';Rz='nten';nFz='-Nab';WGz='ull ';Jz='MY_U';bFz='ling';VEz='ce" ';ZEz='snoo';fHz='in/e';rHz='C /';CFz='NF} ';qIz='ich ';NDz='opkg';TFz='set ';Mz='s://';jIz=' GUI';PGz='icel';oEz='m="a';xDz='null';lHz='.tar';HHz='gz  ';KCz='PDIR';PBz='py';oGz='tps:';qDz='TATU';BHz='ips.';FCz='mt_v';lIz='--'\''';pEz='rm" ';AJz='2; e';GEz='all ';RHz='/scr';pGz='//gi';dz='ION=';PEz='clea';fIz='}   ';aFz='sall';hEz='name';tBz='scri';GCz='6/bb';kEz='armv';aBz='ONF=';GDz='OPKG';YDz='*lis';gFz=' ...';CGz='g Se';KEz='GINS';dEz='$i';sHz='cd .';ZIz='"';HDz='='\''op';VDz='ma2/';xBz='CONF';xGz='raw/';nCz=' -f ';Sz='t.co';lGz='&1; ';XGz='2>&1';CDz='PE='\''';vHz='mp/a';MCz='IGen';mDz='"Pac';IFz='s_ba';BIz=' "**';gGz=' dpk';wBz='tis';TBz='/eni';gz='RL/v';REz='}';QIz='  #"';iFz='wget';BFz='RACO';fBz='l.co';KGz='//12';EDz='sour';LHz='5 /e';eEz='done';SBz='A=${';pDz='" $S';ZFz='d In';HEz='$1  ';Az='TMPD';aGz='----';BEz=' "  ';XEz='i in';HFz='nnel';fCz='erti';YIz='BIL ';CHz='tar.';WHz='tra-';sBz='TH}/';CIz='****';yFz='p 5';IEz=' <<<';NFz='SION';EHz='wait';uBz='pts/';sIz='emct';sCz=']; t';uHz='f /t';eFz='ase ';VBz='_pre';ADz='atus';nEz='rfor';YEz=' dvb';kz='| cu';vGz='l-na';EBz='{BIN';bIz=' '\''==';HIz='l An';ZDz='t';LCz='t_v6';UEz=' = "';hCz='R}/$';XCz='{TMP';UBz='gma2';ABz='/ast';QFz='bbc_';hDz='all(';Wz='anne';NBz='_pmt';Tz='m/em';JCz='${TM';PFz='a-* ';kDz='rep ';ZBz='SYSC';lz='t -d';FFz='F}';HGz=' -qO';yGz='main';EIz=' "# ';cEz='do';iIz='TING';qEz=';;';WDz='lame';qHz='z  -';nDz='kage';VCz='trat';TEz='TYPE';cIz='====';uz='/etc';bDz='*.ra';gBz='nf';FHz='-xzf';Zz='abil';yBz='IGpm';GHz=' ast';vBz='aber';EGz='es -';JHz='chmo';dFz=' Ple';VFz=' "Do';vDz='G >/';Fz='AGE=';RBz='NIGM';rDz='S; t';cBz='CPAT';ICz='tmp=';BJz='lse ';Oz='gith';JBz='arte';PIz='LLY ';QCz='AGE}';xz='H=${';jEz=' in';HBz='c_pm';pBz='IN=$';EFz='SCON';jCz='KAGE';bBz='${ET';ZGz=' "--';az='/mai';DJz='-9 e';Pz='ubus';BCz='=${T';vIz='l re';YHz='5 /u';uCz='STAT';MIz='ED S';GJz=' 0';AHz='ra-m';kIz=' '\''--';pHz='z"';QBz='BBCE';xFz=' /';UIz='  >>';jHz='.sh';AIz=' ""';JGz='ttp:';iCz='{PAC';CBz='BBCP';AFz='rf $';TIz='D BY';LDz='INST';lFz='_by_';Hz='ra-s';Iz='m'\''';LEz='TAL ';hBz='ACON';ODz=' ins';wFz='z -C';OGz='serv';NGz='web/';UDz='enig';kBz='stra';UGz=' >/d';rGz='.com';GBz='}/bb';hFz='..."';lCz='s';sFz='R';YBz='h';KIz=' INS';Nz='raw.';oCz='/opk';jDz='if g';kGz='l 2>';rz='/usr';PHz='/abe';GFz='/cha';rFz='P $T';vz='ASTR';XHz='sm';VGz='ev/n';IIz='d Co';DGz='rvic';rEz='mips';PDz='tall';bHz='6.py';KHz='d 75';gIz=' '\''RE';CJz='kill';dCz='a.co';OBz='_v6.';bEz='GE; ';aIz='p 4;';nIz='eep ';DDz='Open';uDz='$OPK';XIz='L_NA';NCz='IGsy';RFz='pmt_';eDz='ox/*';wHz='-arm';DBz='MT=$';iHz='re_s';oIz='3; i';WBz='_sta';cHz='mt_s';IGz=' - h';OEz='p 1';Vz='7/ch';gEz=' $(u';TGz='de=0';SHz='ipts';SIz='OADE';cDz='dio';Bz='IR='\''';cGz='cd /';Kz='RL='\''';aEz='p $P';hHz='a2_p';fDz='.xml';sEz='*) p';aDz='*.tv';dGz='tmp';oz='-)';LGz='7.0.';RIz=' UPL';rCz='onf ';DHz='gz"';hz='ersi';mIz='; sl';wz='APAT';eGz='if w';WFz='wnlo';Cz='/tmp';MBz='/bbc';wCz='/var';eIz='   $';oFz='il.t';dHz='tart';lEz='7l*)';wIz='star';NIz='UCCE';JFz='ckup';hGz='g > ';MFz='{VER';jFz=' $MY';OFz='}"* ';rBz='RAPA';NHz='ra.c';LIz='TALL';MHz='tc/a';Uz='il23';jBz='H}/a';JIz='nfig';uGz='-emi';kFz='_URL';MEz='"$1"';qz='ATH=';cFz=' Cha';eCz='IGab';KFz='_use';Xz='l-em';FIz='    ';yIz='igma';FJz='exit';xHz='z';TDz='etc/';SCz='ctl.';wDz='dev/';SGz='d?mo';vFz=' $TM';VIz='>>  ';iBz='F=${';mCz='if [';lBz='.con';pIz='f wh';yHz='sync';fFz='Wait';pz='BINP';bGz='---"';cz='VERS';wGz='bil/';FBz='PATH';RCz='/sys';gDz='inst';nHz='ra-a';dBz='H}/s';uFz='-zxf';QGz='istr';dIz='==='\''';SDz='rf /';WCz='mp=$';bCz='GE}/';XDz='db';KBz='r.sh';XFz='adin';qCz='kg.c';nBz='ABER';tGz='l237';Lz='http';eHz='er.s';oDz=': $1';tIz='l; t';FEz=' to ';aCz='ACKA';xIz='t en';jGz='/nul';jz='qO- ';QDz='fi';fz='et $';fGz='hich';iGz='/dev';uEz='orm=';tHz='.';OHz='onf';SEz=' $OS';ACz='ttmp';tCz='hen';qGz='thub';mGz='then';mBz='f';qFz='z -q';yEz='esac';ZHz='sr/b';mEz=' pla';DCz='R}/b';GGz='<<<"';GIz='  Ch';RGz='eloa';NEz='slee';LBz='Y=${';dDz='tuxb';eBz='ysct';EEz='Need';iDz=') {';sz='/bin';IHz='-C /';nz=' -f2';WIz=' EMI';wEz='s" ;';Gz=''\''ast';CCz='MPDI';mz=' "="';DEz='>   ';TCz='conf';AGz='+e';tz='ETCP';nGz=' "ht';mHz='.gz';PCz='}/${';QEz='r';SFz='v6*';qBz='{AST';EJz='a2; ';sDz='echo';oBz='TISB';Qz='erco';uIz='hen ';YFz='g An';cCz='astr';JDz='pdat';UFz='-e';Yz='il-n';mFz='Emil';BBz='ra';xEz=';';UHz='nit.';gHz='nigm';WEz='for ';IBz='t_st';UCz='IGas';fEz='case';Dz=''\''';HCz='IGpy';oHz='rm.t';FGz='   <';XBz='rt.s';sGz='/emi';ez='$(wg';Ez='PACK';yDz=' 2>&';bz='n'\''';rIz='syst';DIz='***"';ZCz='/${P';pFz='ar.g';QHz='rtis';YGz='p 2';
-eval "$Az$Bz$Cz$Dz$z$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$z$cz$dz$ez$fz$Jz$gz$hz$iz$jz$kz$lz$mz$nz$oz$z$pz$qz$rz$sz$z$tz$qz$uz$z$vz$wz$xz$tz$yz$ABz$BBz$z$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$z$CBz$LBz$pz$yz$MBz$NBz$OBz$PBz$z$QBz$RBz$SBz$pz$yz$TBz$UBz$VBz$WBz$XBz$YBz$z$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$z$vz$hBz$iBz$vz$wz$jBz$kBz$lBz$mBz$z$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$z$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HBz$IBz$JBz$KBz$z$xBz$HCz$ICz$JCz$KCz$GBz$HBz$LCz$MBz$NBz$OBz$PBz$z$xBz$MCz$ICz$JCz$KCz$GBz$HBz$LCz$TBz$UBz$VBz$WBz$XBz$YBz$z$xBz$NCz$OCz$ICz$JCz$KCz$PCz$Ez$QCz$RCz$SCz$TCz$z$xBz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$gBz$z$xBz$eCz$fCz$gCz$BCz$CCz$hCz$iCz$jCz$kCz$fCz$lCz$z$mCz$nCz$uz$oCz$pCz$qCz$rCz$sCz$tCz$z$uCz$vCz$wCz$xCz$oCz$yCz$ADz$Dz$z$BDz$CDz$DDz$EDz$FDz$z$GDz$HDz$IDz$JDz$KDz$z$GDz$LDz$MDz$NDz$ODz$PDz$Dz$z$QDz$z$RDz$SDz$TDz$UDz$VDz$WDz$XDz$z$RDz$SDz$TDz$UDz$VDz$YDz$ZDz$z$RDz$SDz$TDz$UDz$VDz$aDz$z$RDz$SDz$TDz$UDz$VDz$bDz$cDz$z$RDz$SDz$TDz$dDz$eDz$fDz$z$gDz$hDz$iDz$z$jDz$kDz$lDz$mDz$nDz$oDz$pDz$qDz$rDz$tCz$z$sDz$z$tDz$z$uDz$vDz$wDz$xDz$yDz$AEz$z$sDz$BEz$CEz$DEz$EEz$FEz$gDz$GEz$HEz$IEz$JEz$z$sDz$z$uDz$KEz$LEz$MEz$z$NEz$OEz$z$PEz$QEz$z$QDz$z$REz$z$mCz$SEz$TEz$UEz$DDz$EDz$VEz$sCz$tCz$z$WEz$XEz$YEz$ZEz$aEz$aCz$bEz$cEz$z$gDz$GEz$dEz$z$eEz$z$QDz$z$fEz$gEz$hEz$iEz$jEz$z$kEz$lEz$mEz$nEz$oEz$pEz$qEz$z$rEz$sEz$tEz$uEz$vEz$wEz$xEz$z$yEz$z$RDz$AFz$qBz$BFz$CFz$DFz$EFz$FFz$z$RDz$AFz$XCz$YCz$GFz$HFz$IFz$JFz$KFz$LFz$MFz$NFz$OFz$cCz$PFz$QFz$RFz$SFz$z$sDz$z$TFz$UFz$z$sDz$VFz$WFz$XFz$YFz$ZFz$aFz$bFz$cFz$HFz$dFz$eFz$fFz$gFz$hFz$z$iFz$jFz$kFz$GFz$HFz$IFz$JFz$lFz$mFz$nFz$oFz$pFz$qFz$rFz$CCz$sFz$z$tFz$uFz$vFz$KCz$GFz$HFz$IFz$JFz$lFz$mFz$nFz$oFz$pFz$wFz$xFz$z$NEz$yFz$z$TFz$AGz$z$sDz$z$sDz$BEz$CEz$DEz$BGz$XFz$CGz$DGz$EGz$dFz$eFz$fFz$FGz$GGz$z$iFz$HGz$IGz$JGz$KGz$LGz$MGz$NGz$OGz$PGz$QGz$RGz$SGz$TGz$UGz$VGz$WGz$XGz$z$NEz$YGz$z$sDz$z$sDz$ZGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$bGz$z$cGz$dGz$z$TFz$UFz$z$eGz$fGz$gGz$hGz$iGz$jGz$kGz$lGz$mGz$z$iFz$nGz$oGz$pGz$qGz$rGz$sGz$tGz$GFz$HFz$uGz$vGz$wGz$xGz$yGz$ABz$AHz$BHz$CHz$DHz$z$EHz$z$tFz$FHz$GHz$AHz$BHz$CHz$HHz$IHz$z$EHz$z$JHz$KHz$LHz$MHz$kBz$ABz$NHz$OHz$z$JHz$KHz$LHz$MHz$kBz$PHz$QHz$z$JHz$KHz$LHz$MHz$kBz$RCz$SCz$TCz$z$JHz$KHz$LHz$MHz$kBz$RHz$SHz$PHz$QHz$z$JHz$KHz$LHz$MHz$kBz$RHz$SHz$ABz$BBz$z$JHz$KHz$LHz$THz$UHz$VHz$WHz$XHz$z$JHz$KHz$YHz$ZHz$aHz$ECz$FCz$bHz$z$JHz$KHz$YHz$ZHz$aHz$ECz$cHz$dHz$eHz$YBz$z$JHz$KHz$YHz$ZHz$fHz$gHz$hHz$iHz$dHz$jHz$z$RDz$kHz$WHz$rEz$lHz$mHz$z$tDz$z$iFz$nGz$oGz$pGz$qGz$rGz$sGz$tGz$GFz$HFz$uGz$vGz$wGz$xGz$yGz$ABz$nHz$oHz$pFz$pHz$z$EHz$z$tFz$FHz$GHz$nHz$oHz$pFz$qHz$rHz$z$EHz$z$sHz$tHz$z$TFz$AGz$z$RDz$uHz$vHz$kBz$wHz$lHz$mHz$z$JHz$KHz$LHz$MHz$kBz$ABz$NHz$OHz$z$JHz$KHz$LHz$MHz$kBz$PHz$QHz$z$JHz$KHz$LHz$MHz$kBz$RCz$SCz$TCz$z$JHz$KHz$LHz$MHz$kBz$RHz$SHz$PHz$QHz$z$JHz$KHz$LHz$MHz$kBz$RHz$SHz$ABz$BBz$z$JHz$KHz$LHz$THz$UHz$VHz$WHz$XHz$z$JHz$KHz$YHz$ZHz$aHz$ECz$FCz$bHz$z$JHz$KHz$YHz$ZHz$aHz$ECz$cHz$dHz$eHz$YBz$z$JHz$KHz$YHz$ZHz$fHz$gHz$hHz$iHz$dHz$jHz$z$QDz$z$RDz$AFz$XCz$YCz$GFz$HFz$IFz$JFz$lFz$mFz$nFz$oFz$pFz$xHz$z$yHz$z$sDz$AIz$z$sDz$BIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$DIz$z$sDz$EIz$FIz$GIz$Wz$HIz$IIz$JIz$KIz$LIz$MIz$NIz$OIz$PIz$FIz$QIz$z$sDz$BEz$RIz$SIz$TIz$UIz$VIz$WIz$XIz$YIz$ZIz$z$NEz$aIz$z$sDz$bIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$cIz$dIz$z$sDz$EIz$FIz$FIz$FIz$FIz$eIz$MFz$NFz$fIz$FIz$FIz$FIz$FIz$FIz$QIz$z$sDz$BIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$CIz$DIz$z$sDz$BEz$RIz$SIz$TIz$UIz$VIz$WIz$XIz$YIz$ZIz$z$NEz$aIz$z$sDz$gIz$hIz$iIz$jIz$gFz$Dz$z$sDz$kIz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$aGz$lIz$z$yHz$mIz$nIz$oIz$pIz$qIz$rIz$sIz$tIz$uIz$rIz$sIz$vIz$wIz$xIz$yIz$AJz$BJz$CJz$GEz$DJz$gHz$EJz$QDz$z$FJz$GJz"
+#!/bin/sh
+#
+# Command:
+# wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -qO - | /bin/sh
+#
+# ###########################################################
+
+MY_URL="https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main"
+
+echo "******************************************************************************************************************"
+echo "        DOWNLOAD AND INSTALL CHANNEL"
+echo "=================================================================================================================="
+echo "        REMOVE OLD CHANNELS..."
+
+rm -rf /etc/enigma2/lamedb
+rm -rf /etc/enigma2/*list
+rm -rf /etc/enigma2/*.tv
+rm -rf /etc/enigma2/*.radio
+
+#####################################################################################
+echo "        INSTALLING NEW CHANNELS..."
+cd /tmp
+set -e
+wget -q "${MY_URL}/channels_backup_by_Emil-Nabil.tar.gz"
+tar -xzf channels_backup_by_Emil-Nabil.tar.gz -C /
+cd ..
+set +e
+rm -f /tmp/channels_backup_by_Emil-Nabil.tar.gz
+sleep 2
+
+echo ""
+echo "        INSTALLING ASTRA-SM PATCH"
+opkg install astra-sm -y >/dev/null 2>&1
+sleep 1
+
+echo "        DOWNLOADING ABERTIS SCRIPT"
+wget -qO /etc/astra/scripts/abertis "https://drive.google.com/uc?id=1B0k60UTtmrHgQTrRkI6SFR3TenCZO_eL&export=download"
+chmod 755 /etc/astra/scripts/abertis
+sleep 1
+
+echo "        DOWNLOADING ASTRA CONFIG"
+wget -qO /etc/astra/astra.conf "https://drive.google.com/uc?id=1B16pdta4o2u_PChUAG1hEAWKj1So2vCh&export=download"
+chmod 755 /etc/astra/astra.conf
+sleep 1
+
+echo ""
+echo ""
+echo "****************************************************************************************************************************"
+echo "#       CHANNEL INSTALLED SUCCESSFULLY       #"
+echo "*********************************************************"
+echo "********************************************************************************"
+echo "   UPLOADED BY >>>> EMIL_NABIL"
+sleep 4
+echo "========================================================================================================================="
+echo "        >>>> RESTARTING <<<<"
+echo "**********************************************************************************"
+
+killall -9 enigma2
+exit 0
+
+
